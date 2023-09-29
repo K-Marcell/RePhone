@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RePhone</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <div class="nav">
+        <div class="navitem"><p class="navtext">Főoldal</p></div>
+        <div class="navitem"><p class="navtext">Szolgáltatások</p></div>
+        <div class="navitem"><p class="navtext">Kapcsolatok</p></div>
+        <div class="navitem"><p class="navtext">Rólunk</p></div>
+        <div class="navitem"><p class="navtext">GYIK</p></div>
+    </div>
+</header>
+    <div class="container">
+        <div class="product"><div class="upperpart">
+    <h2>Iphone 13 Pro Max</h2>
+</div>
+    <img class="iphone phonepic" src="imgs/Iphone13Pro.png" width="300" height="300"  alt="Iphone 13 Pro" title="Iphone 13 Pro">
+    <div class="lowerpart">
+   <h3 class="price">310.000 Ft</h3>
+     <button onclick="addToCart('Iphone 13 Pro Max 1', 310000)" class="addtcart">Vásárlás</button>
+    </div></div>
+    <div class="product">
+        <div class="upperpart">
+    <h2>Samsung S22 Ultra</h2>
+    </div>
+  
+    <img class="samsung phonepic" src="imgs/SamsungS22Ultra.png" width="250" height="300"  alt="Samsung S22 Ultra" title="Samsung S22 Ultra">
+
+    <div class="lowerpart">
+   <h3 class="price">375.000 Ft</h3>
+     <button onclick="addToCart('Samsung S22 Ultra 1', 375000)" class="addtcart">Vásárlás</button>
+    </div></div>
+    <div class="product">
+        <div class="upperpart">
+        <h2>Huawei P30</h2>
+    </div>
+        <img class="huawei phonepic" src="imgs/HuaweiP30.png" width="170" height="300" alt="Huawei P30" title="Huawei P30">
+        <div class="lowerpart">
+       <h3 class="price">80.000 Ft</h3>
+         <button onclick="addToCart('Samsung S22 Ultra 1', 80000)" class="addtcart">Vásárlás</button>
+        </div>
+    </div>
+</div>
+        <div id="cart">
+            <h2>Kosár</h2>
+            <ul id="cart-items"></ul>
+            <p>Összesen: <span id="cart-total">0,00</span> Forint</p>
+            <button onclick="checkout()">Fizetés</button>
+        </div>
+    </body>
+</html>

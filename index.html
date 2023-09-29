@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WePhone</title>
-    <link rel="stylesheet" href="style.css">
+    <title>RePhone</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body onload="changePicture()">
     <header>
     <div class="nav">
-        <img src="logo.png" alt="">
         <div class="navitem"><p class="navtext">Főoldal</p></div>
         <div class="navitem"><p class="navtext">Szolgáltatások</p></div>
         <div class="navitem"><p class="navtext">Kapcsolatok</p></div>
@@ -18,18 +17,38 @@
     </div>
 </header>
     <div class="landing">
-    <h2 class="text">WePhone</h2>
-    <p class="text"><b>Magyarország legmegbízhatóbb telefonkereskedési oldala!</b></p>
-    <p class="text">Telefont keres újonnan, vagy tán használtan, mindez jó áron? A legjobb weboldalt választotta! Akármilyen márkájú telefont ajánlunk, legyen az <a href="http://www.apple.com">Apple</a>, <a href="http://www.samsung.com">Samsung</a>, <a href="http://www.mi.com">Xiaomi</a>, stb..</p>
-    <img src="phonespread.jfif" alt=""> <!--Kép fölé menjen fenti szöveg, legyen "homályosítás" a képen!-->
-    </div>  
-    <div class="services">
-        <h2 class="text">Szolgáltatásaink</h2>
-        <p class="text">Telefonjaink olcsón elérhetőek, mivel mi, a <b>WePhone</b> kevesebb eladói adót teszünk rá termékeinkre!</p>
-        <p class="text">Olcsó kínálatainkat megtalálhatja itt!</p>
-        <button class="view">Megnézem</button> <!--Szürke/Alap szín háttérképnek, LETISZTULT!-->
+    <h2 class="text">RePhone</h2>
+    <p class="text"> Üdvözöljük a <strong> RePhone </strong> telefonkereskedésében! Mi vagyunk a megbízható forrásod a legújabb és legjobb minőségű okostelefonokhoz kedvező áron.  Üzletünkben garantáltan megtalálod az igényeidnek és pénztárcádnak megfelelő készüléket. </p>
+    <p class="text"> Tapasztalt szakembereink segítenek kiválasztani a legmegfelelőbb telefont, és szakszerű támogatást nyújtanak a kiválasztástól a beállításig. Emellett kínálatunkban megtalálhatók a legújabb kiegészítők és tartozékok is. </p>
+   <p class="text"> Várunk szeretettel üzletünkben, hogy segíthessünk a legjobb telefonvásárlási élményben!</p>
+   <div id="carousel">
+    <div id="slide-container">
+      <div class="slide" data-slideIndex="0">
+        <img width="600" height="300" src="imgs/Telefon.png">
+      </div>
+      <div class="slide" data-slideIndex="1">
+        <img width="600" height="300" src="imgs/Telefon2.png">
+      </div>
+      <div class="slide" data-slideIndex="2">
+        <img width="600" height="300" src="imgs/Telefon3.png">
+      </div>
     </div>
-    <footer>Copyright© WePhone 2024</footer>
-    <script src="script.js"></script>
+    <div class="slide-indicators">
+      <div class="slide-indicator active"></div>
+      <div class="slide-indicator"></div>
+      <div class="slide-indicator"></div>
+    </div>
+  </div>
+
+</div>  
+    <div class="services">
+        <div class="viewt">
+        <h2 class="text">Szolgáltatásaink</h2>
+        <p class="text">Készülékeinket kedvező áron kínáljuk, mivel a <b>RePhone</b>  kevesebb eladói adót számít fel termékeinkre!</p>
+        <p class="text">Olcsó ajánlatainkat itt találja!</p></div>
+        <div class="viewb">
+        <button class="view text" onclick="window.location='bolt.html';">Megnézem</button> <!--Szürke/Alap szín háttérképnek, LETISZTULT!--></div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
