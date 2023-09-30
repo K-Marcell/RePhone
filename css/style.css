@@ -290,3 +290,20 @@ h3.price {
     height:47%;
     font-size: .8vw;
 }
+a{
+    color: rgb(237, 237, 237);;
+}
+#szolg{
+    color: rgb(68, 61, 114);
+}
+#list{
+    font-size:50px;
+    font-weight: bold;
+}
+hr{
+    background-color:rgb(68, 61, 114);
+    height: 10px;
+}
+#Kristcim{
+    font-size: 60px;
+}
