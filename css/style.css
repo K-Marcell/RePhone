@@ -307,3 +307,27 @@ hr{
 #Kristcim{
     font-size: 60px;
 }
+#mini{
+    background-color:rgb(68, 61, 114);
+    height: 2.5px;
+}
+#mega{
+    background-color:rgb(68, 61, 114);
+    height: 250px;
+}
+.vertical-lineb {
+    border-left: 17px solid rgb(68, 61, 114);
+    height: 100vh;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px; /* Félszélesség az abszolút pozicionáláshoz */
+    top: 0;
+}
+.vertical-linej {
+    border-left: 30px solid rgb(68, 61, 114);
+    height: 100vh;
+    position: absolute;
+    left: 50%;
+    margin-left: 920px; /* Félszélesség az abszolút pozicionáláshoz */
+    top: 0;
+}
