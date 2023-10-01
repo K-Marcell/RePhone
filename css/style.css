@@ -98,7 +98,64 @@ body {
     width:250%;
     height:25%;
 }
-
+.logo {
+    width: 5.5vw;
+    border-radius: 40px;
+}
+.textnew {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant-east-asian: ruby;
+    font-size: 23px;
+    
+}
+#copyright {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.copyrightsite {
+background-color: black;
+color: rgb(255, 0, 0);
+width:100vw;
+height:100vh;
+overflow: hidden;
+}
+.textnewmains {
+    font-size: 26px;
+}
+.servicecontainer{
+    display: flex;
+}
+.topText {
+    width:100%;
+}
+#tT1 {
+    text-align: right;
+    display:flex;
+}
+.servicebody {
+    background-color: rgb(128, 117, 199);
+}
+#tT1 p {
+    font-size:1.2vw;
+    text-decoration: rgb(128, 117, 199) underline dotted;
+    text-decoration-thickness: 6px;
+    text-shadow: 1px 1px rgb(215, 201, 226);
+    cursor: pointer;
+    width:300px;
+}
+#servicehr {
+height: 6px;
+background-color: rgb(90, 77, 174);
+}
+.serviceheader {
+    background-color:rgb(77, 63, 172);
+    color: rgb(232, 192, 255);
+     text-align: center;
+}
+.service {
+   background-color:rgb(128, 117, 199)
+}
 .view:hover {
     cursor:pointer;
     box-shadow: 3px 3px rgb(92, 76, 200);
