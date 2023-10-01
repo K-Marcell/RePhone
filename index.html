@@ -9,19 +9,24 @@
 <body onload="changePicture()">
     <header>
     <div class="nav">
-        <div class="navitem"><p class="navtext"><a href="index.html"> Főoldal </a></p></div>
-        <div class="navitem"><p class="navtext"><a href="services.html">Szolgáltatások</a></p></div>
-        <div class="navitem"><p class="navtext"><a href="contacts.html">Kapcsolatok</a></p></div>
-        <div class="navitem"><p class="navtext"><a href="about.html">Rólunk</a></p></div>
-        <div class="navitem"><p class="navtext"><a href="faq.html">GYIK </a></p></div>
+        <div class="navitem"><p class="navtext">Főoldal</p></div>
+        <div class="navitem"><p class="navtext" class="view text" onclick="window.location='services.html';" >Szolgáltatások</p></div>
+        <div class="navitem"><p class="navtext" class="view text" onclick="window.location='contacts.html';" >Kapcsolatok</p></div>
+        <div class="navitem"><p class="navtext">Rólunk</p></div>
+        <div class="navitem"><p class="navtext">GYIK</p></div>
     </div>
 </header>
-    <div class="landing">
+<p>
+  <button class="buttons" onclick="darkMode()">Darkmode</button>
+</p>
+<p>
+<button class="buttons" onclick="lightMode()">LightMode</button>
+</p>   
+<div class="landing">
     <h2 class="text">RePhone</h2>
     <p class="text"> Üdvözöljük a <strong> RePhone </strong> telefonkereskedésében! Mi vagyunk a megbízható forrásod a legújabb és legjobb minőségű okostelefonokhoz kedvező áron.  Üzletünkben garantáltan megtalálod az igényeidnek és pénztárcádnak megfelelő készüléket. </p>
     <p class="text"> Tapasztalt szakembereink segítenek kiválasztani a legmegfelelőbb telefont, és szakszerű támogatást nyújtanak a kiválasztástól a beállításig. Emellett kínálatunkban megtalálhatók a legújabb kiegészítők és tartozékok is. </p>
    <p class="text"> Várunk szeretettel üzletünkben, hogy segíthessünk a legjobb telefonvásárlási élményben!</p>
-    <hr>
    <div id="carousel">
     <div id="slide-container">
       <div class="slide" data-slideIndex="0">
