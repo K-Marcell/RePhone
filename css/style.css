@@ -331,3 +331,69 @@ hr{
     margin-left: 920px; /* Félszélesség az abszolút pozicionáláshoz */
     top: 0;
 }
+.cardbk:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cardkm:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cardnd:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cardbk {
+    box-shadow: 0 4px 8px 0 rgb(68, 61, 114);
+    max-width: 300px;
+    margin-left: auto;
+    margin-top: -665px;
+    text-align: left;
+    background-color: rgb(156, 148, 209);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+  }
+  .cardkm {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-right: auto;
+    text-align: left;
+    background-color:rgb(156, 148, 209);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    transition: box-shadow 0.3s ease;
+  }
+  .cardnd {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin:auto;
+    margin-top: -790px;
+    text-align: left;
+    background-color: rgb(156, 148, 209);
+    border-radius:10px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .title {
+    color: black;
+    font-size: 18px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  @media (max-width: 480px) {
+    #Kristcim {
+        font-size: 24px;
+    }
+    .text {
+        font-size: 14px;
+    }
+}
