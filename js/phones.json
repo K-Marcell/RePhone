@@ -1,0 +1,6 @@
+{
+    "phones": [
+        {"image": "imgs/SamsungS22Ultra.png", "name": "Samsung S22 Ultra", "description": "Dual Sim/256GB/Fantom Fekete", "price": "380.000", "id":"s22u"},
+        {"image": "imgs/HuaweiP30.png", "name": "Huawei P30 Pro", "description": "128GB", "price": "80.000", "id":"hp30"},
+        {"image": "imgs/Iphone13Pro.png", "name": "iPhone 13 Pro Max", "description": "Dual Sim/128GB", "price": "310.000", "id":"i13pm"}]
+}

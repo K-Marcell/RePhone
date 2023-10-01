@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RePhone</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="loadShop()">
+    <header>
+    <div class="nav">
+        <div class="navitem"><p class="navtext" class="view text" onclick="window.location='index.html';">Főoldal</p></div>
+        <div class="navitem"><p class="navtext" class="view text" onclick="window.location='services.html';">Szolgáltatások</p></div>
+        <div class="navitem"><p class="navtext">Kapcsolatok</p></div>
+        <div class="navitem"><p class="navtext">Rólunk</p></div>
+        <div class="navitem"><p class="navtext">GYIK</p></div>
+    </div>
+</header>
+<img src="imgs/moon.svg" alt="moon" class="modebutton" id="modebuttond"  onclick="darkmode()">
+<div class="cart" onclick="dobuylist()">
+<img src="imgs/cart.svg" alt="cart" class="cartbutton" id="cartbutton"></div>
+<div class="lowerbar">
+<div class="buylist" id="buylist">
+</div>
+<div class="buybuttonf" id="buybuttonf"><img src="imgs/bw-creditcard.svg" alt=""></div>
+<p class="totalprice" id="totalprice">0 Ft</p>
+</div>
+<div class="phonecontainer" id="phoneContainer">
+<!--<div class="phone" id="pid0">
+    <div class="phoneimageholder" id="ss22u"></div>
+    <div class="topdecor">
+        <p class="text">Samsung S22 Ultra <div class="fine">Dual Sim/256GB/Fantom Fekete</div></p>
+    </div>
+    <div class="bottomdecor">
+        <p class="price text">380.000 Ft</p>
+        <button class="buybutton">Vásárlás</button>
+    </div>
+</div>
+
+    <div class="incart" id="" style="background-image: url('')">
+        <div class="cross" onclick="removeFromCart(this)">X</div>
+    </div>
+--></div>
+    
+    <script src="js/script.js"></script></body>
+</html>
