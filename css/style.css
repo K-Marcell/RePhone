@@ -371,7 +371,7 @@ hr{
   a {
     text-decoration: none;
     font-size: 22px;
-    color: black;
+    color: rgb(237, 237, 237);
   }
   @media (max-width: 480px) {
     #Kristcim {
