@@ -315,22 +315,6 @@ hr{
     background-color:rgb(68, 61, 114);
     height: 250px;
 }
-.vertical-lineb {
-    border-left: 17px solid rgb(68, 61, 114);
-    height: 100vh;
-    position: absolute;
-    left: 50%;
-    margin-left: -960px; /* Félszélesség az abszolút pozicionáláshoz */
-    top: 0;
-}
-.vertical-linej {
-    border-left: 30px solid rgb(68, 61, 114);
-    height: 100vh;
-    position: absolute;
-    left: 50%;
-    margin-left: 920px; /* Félszélesség az abszolút pozicionáláshoz */
-    top: 0;
-}
 .cardbk:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
