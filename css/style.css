@@ -6,6 +6,7 @@ body {
     display:flex;
     width:99%;
     height:10vh;
+    box-shadow: 3px 3px rgb(156, 148, 209);
 }
 
 .navtext, .text {
@@ -16,7 +17,16 @@ body {
     margin-left: 1%;
     font-size:1.2vw;
 }
-
+.bigtext {
+    font-size: x-large;
+    font-variant: no-common-ligatures proportional-nums;
+    font-feature-settings: "akhn";
+    font-stretch: narrower;
+    text-decoration: rgb(90, 77, 174) overline dotted ;
+    text-decoration-thickness: 6px;
+    font-weight: 900;
+    font-variant-caps: small-caps;
+}
 .navtext {
     font-size:1.6vw;
 }
@@ -80,6 +90,7 @@ body {
     text-align:left;
     display:flex;
     border-radius: 4px;
+    box-shadow: 3px 3px rgb(156, 148, 209);
 }
 .view {
     margin-top:75%;
@@ -121,6 +132,7 @@ body {
 .slide-indicators {
     display: flex;
     justify-content: center;
+
 }
 .slide-indicator {
     height: 3vw;
@@ -131,7 +143,7 @@ body {
 }
 .slide-indicator:after {
     content: "";
-    background-color: #878787;
+    background-color: rgb(215, 201, 226);
     height: 0.7vw;
     margin-top: 0.7vw;
     width: 2.5vw;
@@ -139,7 +151,7 @@ body {
 }
 .slide-indicator.active:after,
 .slide-indicator:hover:after {
-    background-color: #000000;
+    background-color: #380046;
 }
 .slide-banner {
     background-color: #000000;
@@ -198,8 +210,6 @@ body {
 .arrow:hover {
     opacity: 1;
 }
-
-
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -226,6 +236,16 @@ body {
 }
 ul{
     list-style-type: none;
+}
+
+.dark-mode {
+    background-color: rgb(16, 3, 26);
+    color: rgb(232, 192, 255);
+}
+
+.light-mode {
+    background-color: rgb(237, 237, 237);
+    color: black;
 }
 
 .upperpart {
@@ -259,7 +279,6 @@ ul{
 }
 
 h3.price {
-    text-align: center;
     margin-bottom:3%;
     color:rgb(237, 237, 237);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -300,10 +319,6 @@ a{
     font-size:50px;
     font-weight: bold;
 }
-hr{
-    background-color:rgb(68, 61, 114);
-    height: 10px;
-}
 #Kristcim{
     font-size: 60px;
 }
@@ -315,6 +330,7 @@ hr{
     background-color:rgb(68, 61, 114);
     height: 250px;
 }
+<<<<<<< Updated upstream
 .cardbk:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -380,4 +396,251 @@ hr{
     .text {
         font-size: 14px;
     }
+=======
+
+.phone {
+    background-color:rgb(128, 117, 199);
+    display:flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    width: 95%;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 3px 3px rgb(215, 201, 226);
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:1%;
+}
+
+.phoneimageholder {
+    background-color: rgb(123, 114, 185);
+    width:15vw;
+    height:15vh;
+    max-height: 15vh;
+    max-width: 15vw;
+    min-height: 15vh;
+    min-width: 15vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 40%;
+    padding:25px;
+>>>>>>> Stashed changes
+}
+
+.carouselimg {
+    background-color: rgb(215, 201, 226);
+    background-image: linear-gradient(to right, rgb(71, 67, 74) 0%, rgb(215, 201, 226) 40%);
+    border-radius: 30px;
+}
+
+.bottomdecor {
+    margin-left: auto;
+    margin-right:3%;
+    width:10%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: .5%;
+}
+.topdecor {
+    margin-left:3%;
+    margin-top:-1%;
+}
+
+.bottomdecor button {
+    margin-left:40%;
+    border-radius: 9px;
+    width:70%;
+    height:35%;
+    margin-top:-10px;
+    border:none;
+    background-color:rgb(156, 148, 209);
+}
+
+.bottomdecor button:hover {
+    
+    cursor:pointer;
+    box-shadow: 3px 3px rgb(92, 76, 200);
+}
+.bottomdecor button:active {
+    width:65%;
+    height:30%;
+    margin-top:-5px;
+    margin-left:42%;
+}
+
+.modebutton {
+    width:10vw;
+    height:10vh;
+    position:fixed;
+    margin-left:87.6%;
+    margin-top:38%;
+border-radius: 500px;
+padding:.2%;
+cursor:pointer;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.modebutton:hover {
+    box-shadow: 3px 3px rgb(156, 148, 209);
+}
+
+#modebuttond {
+    background-color: rgb(16, 3, 26);
+}
+#modebuttonl {
+    background-color: rgb(237, 237, 237);
+}
+
+.phonecontainer {
+    width:99%;
+    height:100vh;
+}
+
+.phonename {
+    font-size:2vw;
+    width:100%;
+}
+.phonedescription {
+    font-size:1.2vw;
+}
+
+.phonename, .phonedescription, .price {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px rgb(156, 148, 209);
+    color:rgb(230, 230, 230);
+}
+.price {
+    text-align: center;
+    margin-left:25%;
+    width:100%;
+}
+.fine {
+    margin-top: -7.5%;
+}
+
+.cart {
+    margin-top:38.3%;
+    width:5vw;
+    height:10vh;
+    border-radius:500px;
+    position:fixed;
+    background-color: rgb(156, 148, 209);
+}
+.cart:hover {
+    
+    cursor:pointer;
+    box-shadow: 2px 3px rgb(92, 76, 200);
+}
+
+.cart img {
+    width:8vw;
+    height:8vh;
+    margin-left:-30%;
+    margin-top:10%;
+}
+@keyframes a_openbuylist {
+    from {
+        
+    width:0vh;
+    opacity:0;
+    }
+    to {
+        opacity:1;
+        width:60vh;
+}
+}
+@keyframes a_closebuylist {
+    from {
+        
+    width:60vh;
+    opacity:1;
+    }
+    to {
+        width:0vh;
+        opacity:0;
+}
+}
+.openbuylist {
+    animation-name: a_openbuylist;
+    animation-duration: .25s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.closebuylist {
+    animation-name: a_closebuylist;
+    animation-duration: .25s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.buylist {
+    width:30vw;
+    height:10vh;
+    background-color: red;
+    position: fixed;
+    margin-top:38.3%;
+    margin-left:7.5%;
+    border-radius: 30px;
+    background-color: rgb(123, 114, 185);
+    box-shadow: 2px 2px rgb(201, 173, 223);
+    display:flex;
+}
+
+.buybuttonf {
+    width:20vw;
+    height:10vh;
+    background-color: yellow;
+    margin-top:38.3%;
+    margin-left:40%;
+    border-radius: 500px;
+    text-align: center;
+    line-height:10vh;
+    background-color: rgb(123, 114, 185);
+    position: fixed;
+}
+
+.buybuttonf:hover {
+    cursor:pointer;
+    position: fixed;
+    box-shadow: 2px 2px rgb(201, 173, 223);
+}
+
+.buybuttonf img {
+    width:5vw;
+    height:5vw;
+    margin-left:-75%;
+    border-radius: 500px;
+    background-color: rgb(156, 148, 209);
+}
+
+.incart {
+    width:5vw;
+    height:9vh;
+    margin-left:6%;
+    margin-top:1%;
+    background-image: url(../imgs/SamsungS22Ultra.png);
+    background-size: cover;
+}
+
+.cross {
+    float: right;
+    color:red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cross:hover {
+    cursor: pointer;
+}
+
+.totalprice {
+    position: fixed;
+    margin-top:39.8%;
+    margin-left:48%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:1.55vw;
+
+    text-align: center;
 }
